@@ -1,0 +1,16 @@
+* INTRODUCTION
+    This is the 'whirlpool' module that exports the standard interface used by
+    the Multi Theft Auto: San Andreas Deathmatch server and it's Lua scripting
+    engine to allow C/C++ developers to add functionality to their servers.
+
+    The function provided by this plugin is whirlpool(string)
+
+* INSTALLATION
+    To load your module at server initialisation, use the module configuration
+    tag syntax as specified in your mtaserver.conf file:
+
+    <!-- <module>sample_win32.dll</module> -->
+    <!-- <module>sample_linux.so</module> -->
+
+    Place your module library inside the mods/deathmatch/modules directory.
+    Be sure to create this directory if it does not exist.
